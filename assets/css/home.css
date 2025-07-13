@@ -1,0 +1,930 @@
+
+.hero-section {
+    margin-top: 140px;
+}
+
+.hero-body {
+    padding: 80px 100px;
+    position: relative;
+    z-index: 2;
+    min-height: 703px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.hero-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.hero-media {
+    position: relative;
+    z-index: 2;
+    max-width: 266px;
+    width: 100%;
+    height: 542px;
+}
+
+.hero-info {
+    position: relative;
+    z-index: 2;
+    max-width: 544px;
+}
+
+.hero-titles {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-titles img {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    z-index: -1;
+    max-width: 182px;
+}
+
+.hero-titles h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--white);
+
+}
+
+.hero-titles p {
+    margin-top: 25px;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 150%;
+    color: var(--white);
+    opacity: .7;
+
+}
+
+.hero-btn {
+    margin-top: 40px;
+}
+
+.hero-tags {
+    margin-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.hero-tag h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-tag p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+    opacity: .7;
+    margin-top: 3px;
+
+}
+
+.orange-tag h2 {
+    color: var(--orange);
+}
+
+.possibilities-carts {
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.paperclip-top {
+    position: absolute;
+    top: -11px;
+    left: 36px;
+    max-width: 32px;
+    height: 53px;
+
+}
+
+.paperclip-bottom {
+    position: absolute;
+    bottom: -11px;
+    right: 4px;
+    max-width: 88px;
+    height: 61px;
+
+}
+
+.possibilities-cart {
+    padding: 15px;
+    background: var(--black2);
+    border-radius: 20px;
+    flex: 1 1 48.9%;
+
+}
+
+.possibilities-cart img {
+    max-width: 560px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+.advantages-carts {
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.advantages-cart {
+    padding: 15px 15px 30px 15px;
+    background: var(--black2);
+    border-radius: 20px;
+    min-height: 432px;
+    align-items: center;
+    max-width: 338px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.advantages-fon-cart {
+    transform: rotate(-6deg);
+}
+
+.advantages-fon-cart::after {
+    content: '';
+    position: absolute;
+    background: var(--black2);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+    border-radius: 20px;
+
+}
+
+.advantages-cart-bg {
+    position: absolute;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+}
+
+.advantages-cart-bg img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.advantages-cart-info {
+    margin-top: auto;
+}
+
+.advantages-cart-info h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.advantages-cart-img {
+    max-width: 235px;
+    width: 100%;
+    height: 256px;
+    margin-bottom: 30px;
+}
+
+.advantages-cart-info p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--white2);
+    opacity: .6;
+    margin-top: 10px;
+    max-width: 308px;
+
+
+}
+
+.advantages-tape-top {
+    max-width: 98px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: -40px;
+    right: -25px;
+}
+
+
+.advantages-tape-bottom {
+    max-width: 98px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: -48px;
+    left: -45px;
+}
+
+
+.reviews-items {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.review-item {
+    padding: 15px 37px 15px 15px;
+    background: var(--black2);
+    border-radius: 20px;
+    flex: 1 1 48.5%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.review-item-descr {
+    gap: 30px;
+
+}
+
+.review-item-decor {
+    position: absolute;
+
+
+}
+
+.review-item-img {
+    max-width: 178px;
+    width: 100%;
+    height: 178px;
+}
+
+.review-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.review-info-titles {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.review-title-text h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white2);
+
+}
+
+.review-title-text p {
+    margin-top: 4px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white2);
+    opacity: .6;
+
+}
+
+.review-item-info {
+    width: 100%;
+}
+
+.review-item-info b {
+    display: block;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 160%;
+    opacity: .8;
+    margin-top: 15px;
+    color: var(--white);
+
+}
+
+.review-mobile-text {
+    display: none;
+}
+
+.estimation {
+    max-width: 32px;
+    height: 32px;
+    width: 100%;
+}
+
+.estimation img {
+    object-fit: cover;
+}
+
+.review-decor--one {
+    top: -11px;
+    left: 36px;
+    max-width: 29px;
+}
+
+.review-decor--two {
+    bottom: -30px;
+    right: -30px;
+    max-width: 117px;
+}
+
+.review-like {
+    bottom: -10px;
+    right: -18px;
+    max-width: 88px;
+}
+
+.review-decor--tree {
+    bottom: -30px;
+    left: -30px;
+    max-width: 117px;
+}
+
+.review-star {
+    bottom: -32px;
+    left: -38px;
+    max-width: 121px;
+}
+
+.review-decor--for {
+    bottom: -25px;
+    left: 115px;
+    max-width: 121px;
+}
+
+
+.faq-titles {
+    position: relative;
+    z-index: 2;
+}
+
+.faq-body {
+    position: relative;
+}
+
+
+.faq-item {
+    background: var(--black2);
+    padding: 25px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.6s ease;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.faq-item.active {
+    border: 1px solid transparent;
+}
+
+
+.faq-item.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.faq-item-header {
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-item-header p {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+}
+
+.faq-item-icon {
+    flex: 0 0 48px;
+    height: 48px;
+    position: relative;
+    border-radius: 8px;
+    transition: .3s;
+    background: var(--white);
+
+}
+
+.faq-item-icon::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background: var(--black);
+    transition: .3s;
+
+
+}
+
+.faq-item-icon::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background: var(--black);
+    transform: rotate(90deg);
+    transition: .3s;
+
+}
+
+
+.faq-item.active .faq-item-icon::after {
+    transform: rotate(-135deg);
+    transition: .3s;
+}
+
+.faq-item.active .faq-item-icon::before {
+    transform: rotate(135deg);
+    transition: .3s;
+
+}
+
+
+.faq-item.active .faq-item-sub {
+    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    margin-top: 18px;
+
+}
+
+.faq-item-sub {
+    transition: .5s;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.faq-item-sub p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 150%;
+    opacity: .7;
+    color: var(--white);
+    max-width: 1030px;
+}
+
+.icon-arrow_downward {
+    font-size: 15px;
+    background: var(--white);
+    opacity: .6;
+    transition: .5s;
+    display: block;
+}
+
+.faq-item.active .icon-arrow_downward {
+    transform: rotate(180deg);
+    background: var(--orange);
+    opacity: 1;
+
+}
+
+.faq-items {
+    gap: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.trust-titles {
+    max-width: 785px;
+    position: relative;
+    z-index: 2;
+}
+
+.trust-body {
+    position: relative;
+    z-index: 2;
+}
+
+.trust-titles img {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: -1;
+    max-width: 182px;
+}
+
+
+.trust-titles h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.trust-titles p {
+    margin-top: 25px;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 150%;
+    color: var(--white);
+    opacity: .7;
+    text-align: center;
+
+}
+
+
+
+.trust-bnt {
+    margin-top: 50px;
+}
+
+.trust-decor-left {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    max-width: 297px;
+}
+
+.trust-decor-right {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    max-width: 294px;
+}
+
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .hero-body {
+        padding: 30px 28px;
+    }
+
+
+    .trust-decor-left {
+        top: 200px;
+        max-width: 131px;
+    }
+    .trust-decor-right {
+        top: 220px;
+        max-width: 152px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-body {
+        flex-direction: column;
+        padding: 30px 28px 0 28px;
+        gap: 40px;
+
+    }
+
+    .hero-titles {
+        max-width: 260px;
+    }
+
+    .hero-titles h1 {
+        font-size: 22px;
+        line-height: 100%;
+        text-align: center;
+
+    }
+
+    .hero-titles p {
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+
+    }
+
+    .hero-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-bg img {
+        border-radius: 20px;
+    }
+
+    .hero-titles img {
+        top: 36px;
+        right: -10px;
+        max-width: 98px;
+    }
+
+    .hero-section {
+        margin-top: 94px;
+    }
+
+    .hero-tags {
+        margin-top: 40px;
+    }
+
+    .hero-tag h2 {
+        font-size: 18px;
+        line-height: 150%;
+
+    }
+
+    .hero-tag p {
+        font-size: 10px;
+        line-height: 150%;
+
+    }
+
+    .hero-media {
+        position: relative;
+        z-index: 2;
+        max-width: 224px;
+        width: 100%;
+        height: unset;
+    }
+
+    .hero-body {
+        min-height: 628px;
+        overflow-y: hidden;
+    }
+
+    .possibilities-cart img {
+        height: 170px;
+        border-radius: 8px;
+    }
+
+    .possibilities-cart {
+        border-radius: 15px;
+
+    }
+
+    .possibilities-carts {
+        gap: 12px;
+    }
+
+    .paperclip-top {
+        top: -1px;
+        max-width: 20px;
+        height: 38px;
+    }
+
+    .advantages-cart {
+        max-width: 100%;
+    }
+
+    .trust-titles h2{
+        font-size: 20px;
+        line-height: 100%;
+
+    }
+    .trust-titles p{
+        font-size: 12px;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+
+    .trust-titles img {
+        top: 15px;
+        max-width: 111px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .advantages-cart-img {
+        max-width: 167px;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .advantages-cart {
+        max-width: 286px;
+        min-height: 357px;
+        padding: 12px 34px 30px 34px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advantages-carts {
+        gap: 40px;
+    }
+
+    .advantages-cart-info h3 {
+        font-size: 15px;
+        line-height: 120%;
+    }
+
+    .advantages-cart-info p {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 160%;
+        text-align: center;
+    }
+
+    .advantages-cart-info {
+        margin-top: 18px;
+    }
+
+    .review-item-info b {
+        display: none;
+    }
+
+    .review-item-img {
+        max-width: 80px;
+        height: 80px;
+    }
+
+    .review-item-img img {
+        border-radius: 8px;
+    }
+
+    .review-item {
+        padding: 15px;
+        border-radius: 15px;
+        gap: 15px;
+        flex: 1 1 auto;
+    }
+
+    .reviews-items {
+        gap: 15px;
+    }
+
+    .review-mobile-text {
+        display: block;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 160%;
+        color: var(--white2);
+        opacity: .8;
+        max-width: 290px;
+        margin-top: 12px;
+
+    }
+
+    .review-decor--two {
+        bottom: -10px;
+        right: -10px;
+        max-width: 60px;
+    }
+
+    .review-like {
+        bottom: 0;
+        right: -5px;
+        max-width: 45px;
+    }
+
+    .review-decor--tree {
+        bottom: unset;
+        top: -12px;
+        left: -6px;
+        max-width: 59px;
+    }
+
+    .review-star {
+        bottom: unset;
+        left: -10px;
+        max-width: 67px;
+        top: -23px;
+    }
+
+    .review-decor--one {
+        left: 26px;
+    }
+
+    .review-decor--for {
+        bottom: unset;
+        top: 69px;
+        left: 62px;
+        max-width: 50px;
+    }
+
+    .review-item-descr {
+        gap: 15px;
+    }
+
+    .review-title-text h3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .review-title-text p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    .estimation {
+        max-width: 28px;
+        height: 28px;
+    }
+    .trust-bnt{
+        margin-top: 25px;
+    }
+
+    .trust-body {
+        position: relative;
+        z-index: 2;
+        min-height: 230px;
+        justify-content: stretch;
+    }
+    .faq-item {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .faq-item-header p{
+        font-size: 12px;
+        line-height: 150%;
+
+    }
+    .icon-arrow_downward{
+        font-size: 10px;
+    }
+    .faq-item.active .faq-item-sub{
+        margin-top: 10px;
+    }
+    .faq-item-sub p{
+        font-size: 10px;
+        line-height: 150%;
+
+    }
+    .faq-body .section-titles h2{
+        font-size: 18px;
+    }
+    .reviews-body .section-titles h2{
+        font-size: 18px;
+    }
+    .advantages-body .section-titles h2{
+        font-size: 18px;
+    }
+    .faq-items{
+        gap: 12px;
+    }
+
+    .trust-decor-right {
+        top: 170px;
+        max-width: 152px;
+        right: -20px;
+    }
+    .trust-decor-left {
+        top: 160px;
+        max-width: 172px;
+        left: -20px;
+    }
+    .hero-btn{
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 456px) {
+
+
+}

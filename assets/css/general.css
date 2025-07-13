@@ -1,0 +1,172 @@
+:root {
+    --white: #FFFFFF;
+    --white2: #FAFDFF;
+
+
+    --black: #0F0F0F;
+    --black2: #161616;
+    --black3:  #00000040;
+    --blac4: #0B0B0B;
+
+    --gray: #323232;
+
+    --orange: #FF5900;
+
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.small-container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+
+.img-mobile {
+    display: none;
+}
+
+.btn-orange {
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+    background: var(--orange);
+    border-radius: 50px;
+    transition: .5s;
+
+}
+.btn-orange:hover{
+    background: var(--white);
+    color: var(--black2);
+}
+
+.section {
+    margin-top: 120px;
+}
+
+.section-titles h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.section-titles p {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--white);
+    opacity: .7;
+    margin-top: 20px;
+
+}
+
+.block-cnt{
+    margin-top: 60px;
+
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+    .desktop-text-wrap {
+        display: inline;
+    }
+
+    .desktop-block {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .mobile-text-wrap {
+        display: block;
+    }
+    .btn-orange{
+        padding: 10px 40px;
+        font-size: 12px;
+        line-height: 150%;
+
+    }
+
+    .section {
+        margin-top: 60px;
+    }
+
+    .section-titles h2{
+        font-size: 20px;
+        line-height: 140%;
+
+    }
+    .section-titles p{
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 160%;
+
+    }
+    .block-cnt {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+}
